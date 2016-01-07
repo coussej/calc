@@ -1,6 +1,6 @@
 package calc
 
-// Min returns the smalles integer from its arguments.
+// Min returns the smallest integer from its arguments.
 func Min(x ...int) (min int) {
 	for i, v := range x {
 		switch {
